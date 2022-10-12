@@ -3,24 +3,39 @@
 What is a programming language?
 Answer:
 
+A programming language is a computer language that is used by programmers (developers) to communicate with computers. It is a set instruction written in any specific language like Java to perform a specific task.
+
 What is a JDK composed of? Define each components?
 Answer:
+JDK (Java Development Kit) is a software development environment used to develop and execute(run) the JAVA program. JDK is everything. JDK is JRE and JVM. JDK is a kit or package that includes tow things. Development tools( to provide an environment to develop your java programs.  JRE (to execute your Java programing)
+JRE (Java Runtime Environment) is an installation package that provides an environment to only run(not develop) the java program(or application)onto your machine. JRE is only used by those who only want to run Java programs that are end-users of your system.
+JVM (java virtual machine) is a very important part of both JDK and JRE because it is contained or inbuilt in both. Whatever Java program you run using JRE or JDK goes into JVM and JVM is responsible for executing the java program line by line, hence it is also known as an interpreter.
+
 
 What is an IDE?
 Answer:
 An integrated development environment (IDE) is a software application that helps programmers develop software code efficiently. It increases developer productivity by combining capabilities such as software editing, building, testing, and packaging in an easy-to-use application.
-  4 What are some of the most popular Java IDEs available in the market?
-	•	Eclipse.
-	•	IntelliJ IDEA.
+
 
 What are some of the most popular Java IDEs available in the market?
 Answer:
+Eclipse.
+	•	IntelliJ IDEA.
 
 Explain the entire java life cycle.
 Answer:
+Life cycle of a java program tells us what happens right from the point when we type source code in a text editor to the point that source code is converted into machine code
+There are three main stages in the life cycle of a java program. They are: Editing the program, Compiling the source code, Executing the byte code
+The Java application life cycle. We can use any text editor to create the high-level Java text file. This file is saved as a .java file on the disk. We then compile this text file using the Java compiler, which result in a .class file being created on the disk. The .class file contains the bytecodes. The file is then loaded into memory by the class loader. The bytecode verifier confirms that the bytecodes are valid and not hostile. Finally, the JVM reads the bytecodes in memory and translates them into machine code. The latest release of Java 2 includes two virtual machine implementations:
+Java HotSpot Client VM - A virtual machine tuned for single-user client applications that require fast start-up times and low memory usage.
+Java HotSpot Server VM - A virtual machine tuned for multi-user applications running in a server environment. This VM includes active compilation (compiling sections of code, requiring high usage), high performance memory and thread managment. (Simply invoke by passing -server to the standard VM on execution, e.g. java -server HelloWorld)
+
+
 
 What is a class?
 Answer:
+A class is a template used to create objects and to define object data types and methods. Everything in Java is associated with classes and objects, along with its attributes and methods. For example: in real life, a car is an object. The car has attributes, such as weight and color, and methods, such as drive and brake.A Class is like an object constructor, or a "blueprint" for creating objects.
+
 
 What is an object?
 Answer:
